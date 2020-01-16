@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    padding-top: 15px;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: 'Great Vibes', cursive;
+}
+
+h2, h2 a, h3, h3 a {
+    font-size:40px;
+    font-family: 'Italianno', cursive;
+}
+
+p, a {
+    padding: 10px 20px 0 0;
+    line-height: 20px;
+    font-family: Arial, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-color: #DEF1FE;
+}
+
+/**** Cabecera de la página ****/
+
+#cabecera {
+    background-image: url(portada.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+    width: 100%;
+    height: 439px;
+}
+
+.titulo {
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    padding: 20px 0;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+/**** Menú principal ****/
+
+#menu {
+   	text-align: center;
+	width: 100%;
+	height: auto;
+    position: fixed;
+	min-height: 40px;
+	padding:15px 10px 15px 0px;
+	margin: 0 auto;
+	background-color: #F7F9F9; 
+}
+
+#menu ul {
+   list-style-type: none; 
+}
+
+#menu ul li a {
+    display: inline-block;
+	text-decoration: none;
+	color: white;
+	background-color: #DDADF8;
+	padding: 8px 25px;
+	margin-right:15px;
+    float: left;
+	transition: background-color 0.3s linear;
+}
+
+#menu ul li a:hover {
+	color: grey;
+	background-color: #F9C5ED;
+}
+
+
+/**** Artículo ****/
+
+#articulo {
+   float:right;
+    width: 75%;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom-style: dotted;
+}
+
+.boton-leer-mas {
+    color: white;
+    display: block;
+    width: 8%;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #DDADF8;
+}
+
+.boton-leer-mas:hover {
+    color: grey;
+    background-color: #F9C5ED;
+    transition: background-color 0.3s linear;
+}
+
+.imagen-articulo img {
+    width: 98%;
+}
+  
+
+/**** Aside ****/
+
+#columna {
+    float:left;
+    width: 20%;
+    height: 770px;
+    padding: 10px 0 0 20px;
+    margin-top: 15px;
+    background-color: #DDADF8;
+}
+
+.imagen-columna img {
+    width: 90%;
+    margin-left: 2%;
+}
+
+.iconos {
+    margin: 30px 31% 0px 21%;
+}
+ 
+.texto-iconos a {
+    display: inline-block;
+    padding: 10px 0 30px 17%;
+}
+
+
+/*** Seccion ***/
+
+#seccion {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 3%;
+}
+
+.foto-seccion {
+    width: 22%;
+    float: left;
+    margin-right: 3%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.foto-seccion img {
+    width: 100%
+}
+
+/**** Footer ****/
+
+#pie {
+    width: 100%;
+    text-align: center;
+    background-color: #F7F9F9;
+    padding: 20px;
+    
+}
+
+.clear {clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
